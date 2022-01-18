@@ -1,0 +1,21 @@
+<html>
+    <head></head>
+    <body>
+        <h2>java script referal code</h2>
+        <label >enter the number</label>
+        <input type="text" id =rc>
+        <button onclick="isCheck()">check</button>
+        <p id="show"></p>
+        <script>
+            function isCheck(){
+                var num =document.getElementById('rc').value;
+                if(num==678){
+                    document.getElementById('show').innerHTML=""+num+" is a referal code";
+                }
+                else{
+                    document.getElementById('show').innerHTML=""+num+" not a referal code";
+                }
+            }
+        </script>
+    </body>
+</html>
